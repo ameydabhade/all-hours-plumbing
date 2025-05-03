@@ -11,13 +11,13 @@ const testimonials = [
   {
     name: "Sarah Williams",
     role: "Homeowner",
-    text: "I've been using All Hours Plumbing for years, and they never disappoint. Their technicians are knowledgeable, courteous, and always leave my home clean. Highly recommend their services!",
+    text: "I&apos;ve been using All Hours Plumbing for years, and they never disappoint. Their technicians are knowledgeable, courteous, and always leave my home clean. Highly recommend their services!",
     image: "/person2.jpg"
   },
   {
     name: "David Thompson",
     role: "Local Business Owner",
-    text: "As a small business owner in Yulee, I rely on All Hours Plumbing for all our plumbing needs. They're reliable, affordable, and always provide excellent service. A true local gem!",
+    text: "As a small business owner in Yulee, I rely on All Hours Plumbing for all our plumbing needs. They&apos;re reliable, affordable, and always provide excellent service. A true local gem!",
     image: "/person3.jpg"
   },
 ];
