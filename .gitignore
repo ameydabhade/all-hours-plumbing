@@ -1,0 +1,10 @@
+node_modules/
+/all-hours-plumbing/node_modules/
+/all-hours-plumbing/dist/
+/all-hours-plumbing/build/
+/all-hours-plumbing/coverage/
+/all-hours-plumbing/logs/
+/all-hours-plumbing/temp/
+/all-hours-plumbing/test/
+/all-hours-plumbing/test-results/
+
