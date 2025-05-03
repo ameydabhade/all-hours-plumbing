@@ -25,12 +25,12 @@ const testimonials = [
 const Testimonials = () => (
   <section id="testimonials" className="py-24 bg-white section-animate">
     <div className="container mx-auto max-w-5xl px-6">
-      <h2 className="text-3xl md:text-5xl font-serif font-semibold text-green-900 mb-12 text-center">Yulee's Trusted Plumber</h2>
+      <h2 className="text-3xl md:text-5xl font-serif font-semibold text-green-900 mb-12 text-center">Yulee&apos;s Trusted Plumber</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {testimonials.map((t, i) => (
           <div key={i} className="bg-[var(--primary-light)] bg-opacity-20 p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 relative">
-            <div className="text-[var(--accent)] text-5xl absolute top-4 left-4 opacity-20">"</div>
+            <div className="text-[var(--accent)] text-5xl absolute top-4 left-4 opacity-20">&quot;</div>
             <div className="flex items-center mb-6">
             <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4 border-2 border-green-900">
                 <Image 
@@ -48,7 +48,7 @@ const Testimonials = () => (
               </div>
             </div>
             <div className="text-[var(--text-primary)] italic relative z-10">{t.text}</div>
-            <div className="text-[var(--accent)] text-5xl absolute bottom-4 right-4 opacity-20">"</div>
+            <div className="text-[var(--accent)] text-5xl absolute bottom-4 right-4 opacity-20">&quot;</div>
           </div>
         ))}
       </div>
