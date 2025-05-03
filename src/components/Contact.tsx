@@ -9,7 +9,7 @@ const Contact = () => (
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="bg-green-900 text-white p-12 flex flex-col justify-center">
             <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-6">Contact All Hours Plumbing</h2>
-            <p className="mb-8 opacity-90">Need emergency plumbing service in Yulee? We're available 24/7 to help with all your plumbing needs.</p>
+            <p className="mb-8 opacity-90">Need emergency plumbing service in Yulee? We&apos;re available 24/7 to help with all your plumbing needs.</p>
             
             <div className="space-y-6 mt-4">
               <div className="flex items-start space-x-4">
