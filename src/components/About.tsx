@@ -10,7 +10,7 @@ const About = () => (
       
       <div className="bg-white bg-opacity-50 backdrop-blur-sm rounded-xl p-8 md:p-12 shadow-sm">
         <p className="text-[var(--text-primary)] leading-relaxed mb-8 text-center max-w-3xl mx-auto">
-          At <span className="font-serif font-medium">All Hours Plumbing</span>, we understand that plumbing emergencies don't follow a schedule. That's why we're available 24/7 to serve the Yulee community with prompt, professional plumbing services whenever you need us.
+          At <span className="font-serif font-medium">All Hours Plumbing</span>, we understand that plumbing emergencies don&apos;t follow a schedule. That&apos;s why we&apos;re available 24/7 to serve the Yulee community with prompt, professional plumbing services whenever you need us.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
