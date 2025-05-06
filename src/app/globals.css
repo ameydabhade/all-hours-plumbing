@@ -5,11 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #1a3d2f;
-  --primary-light: #d7e7d7;
-  --text-primary: #1a3d2f;
-  --text-secondary: #3e5e50;
-  --accent: #d4b98c;
+  --primary: #0f4c75;
+  --primary-light: #d0e8f2;
+  --text-primary: #0f4c75;
+  --text-secondary: #3282b8;
+  --accent: #1b262c;
 }
 
 @theme inline {

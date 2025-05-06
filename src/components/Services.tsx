@@ -39,7 +39,7 @@ const Services = () => (
   <section id="services" className="py-24 bg-[var(--primary-light)] section-animate">
     <div className="container mx-auto max-w-6xl px-6">
       <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-5xl font-serif font-semibold text-green-900 mb-6">Our Plumbing Services</h2>
+        <h2 className="text-3xl md:text-5xl font-serif font-semibold text-blue-800 mb-6">Our Plumbing Services</h2>
         <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">Available 24/7 for all your plumbing needs in Yulee. We provide reliable, efficient service you can trust.</p>
       </div>
       
@@ -54,17 +54,17 @@ const Services = () => (
                 className="object-cover"
               />
               <div className="absolute top-4 right-4 bg-white rounded-full p-3 shadow-md">
-                <div className="text-green-900">
+                <div className="text-blue-800">
                   {s.icon}
                 </div>
               </div>
             </div>
             <div className="p-8">
-              <h3 className="font-serif text-2xl font-semibold text-green-900 mb-4">{s.title}</h3>
+              <h3 className="font-serif text-2xl font-semibold text-blue-800 mb-4">{s.title}</h3>
               <p className="text-[var(--text-secondary)] mb-6">{s.desc}</p>
               <a 
                 href="#contact" 
-                className="inline-flex items-center text-green-900 font-medium hover:text-[var(--accent)] transition-colors"
+                className="inline-flex items-center text-blue-800 font-medium hover:text-[var(--accent)] transition-colors"
               >
                 Schedule Service
                 <svg 
@@ -86,7 +86,7 @@ const Services = () => (
       <div className="mt-16 text-center">
         <a 
           href="#contact" 
-          className="inline-block px-8 py-3 rounded-full bg-green-900 text-white font-medium hover:bg-green-800 transition-colors duration-300 shadow-md"
+          className="inline-block px-8 py-3 rounded-full bg-blue-800 text-white font-medium hover:bg-blue-700 transition-colors duration-300 shadow-md"
         >
           View All Services
         </a>

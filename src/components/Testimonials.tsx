@@ -25,14 +25,14 @@ const testimonials = [
 const Testimonials = () => (
   <section id="testimonials" className="py-24 bg-white section-animate">
     <div className="container mx-auto max-w-5xl px-6">
-      <h2 className="text-3xl md:text-5xl font-serif font-semibold text-green-900 mb-12 text-center">Yulee&apos;s Trusted Plumber</h2>
+      <h2 className="text-3xl md:text-5xl font-serif font-semibold text-blue-800 mb-12 text-center">Yulee&apos;s Trusted Plumber</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {testimonials.map((t, i) => (
           <div key={i} className="bg-[var(--primary-light)] bg-opacity-20 p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 relative">
             <div className="text-[var(--accent)] text-5xl absolute top-4 left-4 opacity-20">&quot;</div>
             <div className="flex items-center mb-6">
-            <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4 border-2 border-green-900">
+            <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4 border-2 border-blue-800">
                 <Image 
                   src={t.image} 
                   alt={t.name} 
@@ -43,7 +43,7 @@ const Testimonials = () => (
                 />
               </div>
               <div>
-                <div className="font-serif text-lg font-semibold text-green-900">{t.name}</div>
+                <div className="font-serif text-lg font-semibold text-blue-800">{t.name}</div>
                 <div className="text-[var(--text-secondary)] text-sm">{t.role}</div>
               </div>
             </div>
@@ -54,7 +54,7 @@ const Testimonials = () => (
       </div>
       
       <div className="mt-12 text-center">
-        <button className="px-8 py-3 rounded-full border-2 border-green-900 text-green-900 font-medium hover:bg-green-900 hover:text-white transition-colors duration-300">
+        <button className="px-8 py-3 rounded-full border-2 border-blue-800 text-blue-800 font-medium hover:bg-blue-800 hover:text-white transition-colors duration-300">
           Read More Reviews
         </button>
       </div>

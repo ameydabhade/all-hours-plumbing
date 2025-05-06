@@ -7,7 +7,7 @@ const Contact = () => (
     <div className="container mx-auto max-w-6xl px-6 relative z-10">
       <div className="bg-white rounded-xl shadow-lg overflow-hidden">
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="bg-green-900 text-white p-12 flex flex-col justify-center">
+          <div className="bg-blue-800 text-white p-12 flex flex-col justify-center">
             <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-6">Contact All Hours Plumbing</h2>
             <p className="mb-8 opacity-90">Need emergency plumbing service in Yulee? We&apos;re available 24/7 to help with all your plumbing needs.</p>
             
@@ -52,7 +52,7 @@ const Contact = () => (
           </div>
           
           <div className="p-12">
-            <h3 className="text-2xl font-serif font-medium text-green-900 mb-6">Request Emergency Service</h3>
+            <h3 className="text-2xl font-serif font-medium text-blue-800 mb-6">Request Emergency Service</h3>
             <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
@@ -60,7 +60,7 @@ const Contact = () => (
                   <input 
                     type="text" 
                     id="firstName"
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent text-green-900" 
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent text-blue-800" 
                     required 
                   />
                 </div>
@@ -69,7 +69,7 @@ const Contact = () => (
                   <input 
                     type="text"
                     id="lastName" 
-                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent text-green-900" 
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent text-blue-800" 
                     required 
                   />
                 </div>
@@ -80,7 +80,7 @@ const Contact = () => (
                 <input 
                   type="email" 
                   id="email"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent text-green-900" 
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent text-blue-800" 
                   required 
                 />
               </div>
@@ -90,7 +90,7 @@ const Contact = () => (
                 <input 
                   type="tel" 
                   id="phone"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent text-green-900" 
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent text-blue-800" 
                   required
                 />
               </div>
@@ -99,7 +99,7 @@ const Contact = () => (
                 <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">Service Needed*</label>
                 <select
                   id="service"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent text-green-900"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent text-blue-800"
                   required
                 >
                   <option value="">Select a service</option>
@@ -116,12 +116,12 @@ const Contact = () => (
                 <textarea 
                   id="message"
                   rows={4}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent text-green-900" 
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent text-blue-800" 
                   placeholder="Please describe your plumbing emergency..."
                 ></textarea>
               </div>
               
-              <button type="submit" className="px-8 py-3 rounded-md bg-green-900 text-white font-medium hover:bg-green-800 transition-colors duration-300 w-full md:w-auto btn-animate">
+              <button type="submit" className="px-8 py-3 rounded-md bg-blue-800 text-white font-medium hover:bg-blue-700 transition-colors duration-300 w-full md:w-auto btn-animate">
                 Request Emergency Service
               </button>
             </form>
